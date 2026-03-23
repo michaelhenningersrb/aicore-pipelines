@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-        - name: dockerkey-michaelhenninger 
+        - name: default
         minReplicas: 1
         maxReplicas: 1
         containers:
